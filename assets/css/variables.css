@@ -1,0 +1,10 @@
+:root {
+    --bg-color: #050505;
+    --text-color: #f0f0f0;
+    --primary-color: #9d4edd;
+    /* Roxo Neon */
+    --accent-color: #39ff14;
+    /* Verde Neon */
+    --font-heading: 'Syne', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
