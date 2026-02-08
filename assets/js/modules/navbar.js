@@ -7,20 +7,7 @@ export function initNavbar() {
 
     if (hamburger && navLinks) {
         hamburger.addEventListener('click', () => {
-            const isFlex = navLinks.style.display === 'flex';
-            navLinks.style.display = isFlex ? 'none' : 'flex';
-
-            if (!isFlex) {
-                Object.assign(navLinks.style, {
-                    flexDirection: 'column',
-                    position: 'absolute',
-                    top: '70px',
-                    left: '0',
-                    width: '100%',
-                    background: 'rgba(10,10,10,0.95)',
-                    padding: '2rem'
-                });
-            }
+            navLinks.classList.toggle('active');
         });
     }
 

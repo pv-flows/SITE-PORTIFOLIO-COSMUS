@@ -59,6 +59,12 @@
     font-weight: 700;
 }
 
+@media (max-width: 768px) {
+    .bio-text p {
+        text-align: left;
+    }
+}
+
 .text-purple {
     color: var(--primary-color) !important;
     font-style: normal;
@@ -174,7 +180,7 @@
 
 @media (max-width: 768px) {
     .photo-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 

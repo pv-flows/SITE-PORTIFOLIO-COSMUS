@@ -125,12 +125,28 @@ footer {
         background: white;
     }
 
-    /* Adjust margins for other structural elements */
     .navbar,
     .media-section,
     footer {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    /* Mobile Menu Active State */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: rgba(10, 10, 10, 0.95);
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 }
 
