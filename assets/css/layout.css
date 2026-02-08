@@ -53,7 +53,10 @@
 }
 
 .hero-content {
-    position: relative;
+    position: absolute;
+    bottom: 8vh;
+    left: 0;
+    width: 100%;
     z-index: 2;
     padding: 0 1rem;
 }
