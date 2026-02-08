@@ -69,6 +69,12 @@
     padding: 5rem 5%;
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding: 5rem 10px;
+    }
+}
+
 /* Media Section */
 .media-section {
     background: #111;
@@ -102,6 +108,11 @@ footer {
         cursor: pointer;
     }
 
+    .hero {
+        width: 100%;
+        padding: 0;
+    }
+
     .hero h1 {
         font-size: 2.5rem;
     }
@@ -112,6 +123,14 @@ footer {
         height: 3px;
         margin: 5px;
         background: white;
+    }
+
+    /* Adjust margins for other structural elements */
+    .navbar,
+    .media-section,
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
