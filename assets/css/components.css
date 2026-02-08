@@ -43,6 +43,27 @@
     -webkit-text-stroke: 1px var(--accent-color);
 }
 
+/* Manifesto Text */
+.bio-text p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #e0e0e0;
+}
+
+.bio-text p em {
+    color: inherit;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.text-purple {
+    color: var(--primary-color) !important;
+    font-style: normal;
+}
+
 /* Bio Stats */
 .bio-grid {
     display: grid;
