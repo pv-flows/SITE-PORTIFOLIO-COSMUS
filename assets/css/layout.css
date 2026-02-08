@@ -98,11 +98,8 @@ footer {
     display: none;
 }
 
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
 
+@media (max-width: 768px) {
     .hamburger {
         display: block;
         cursor: pointer;
