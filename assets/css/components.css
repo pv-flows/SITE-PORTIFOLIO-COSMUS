@@ -41,6 +41,8 @@
     .btn-primary {
         padding: 1rem 1.5rem;
         margin-top: 1.5rem;
+        letter-spacing: 1px;
+        font-size: 0.9rem;
     }
 }
 
@@ -117,6 +119,15 @@
 @media (max-width: 768px) {
     .bio-grid {
         grid-template-columns: 1fr;
+    }
+
+    .bio-text p {
+        font-size: 1rem;
+        letter-spacing: 0.3px;
+    }
+
+    .stat-value {
+        font-size: 1.1rem;
     }
 }
 
