@@ -325,3 +325,57 @@
         width: 100%;
     }
 }
+
+/* Utilities / Refactoring */
+.d-block {
+    display: block;
+}
+
+.mb-05 {
+    margin-bottom: 0.5rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.text-small {
+    font-size: 0.8em;
+}
+
+.text-lg {
+    font-size: 1.1rem;
+}
+
+.text-xl {
+    font-size: 1.2rem;
+}
+
+.mw-800 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iframe-rounded {
+    border-radius: 12px;
+}
+
+.img-rounded {
+    border-radius: 4px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.link-underline {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: inherit;
+}
+
+.link-underline:hover {
+    color: var(--primary-color);
+}

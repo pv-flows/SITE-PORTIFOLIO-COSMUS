@@ -114,3 +114,8 @@ footer {
         background: white;
     }
 }
+
+/* Utility / Sections specific */
+.section-dark {
+    background-color: #0d0d0d;
+}

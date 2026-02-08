@@ -1,0 +1,23 @@
+export const galleryData = [
+    { src: 'assets/img/foto1.jpg', alt: 'Cosmus performance no palco - Luzes roxas' },
+    { src: 'assets/img/foto2.jpg', alt: 'Cosmus em close-up - Maquiagem artística' },
+    { src: 'assets/img/foto3.jpg', alt: 'Performance corporal em evento Ballroom' },
+    { src: 'assets/img/foto4.jpg', alt: 'Show ao vivo - Energia do público' },
+    { src: 'assets/img/foto5.jpg', alt: 'Retrato artístico - Conceito visual' },
+    { src: 'assets/img/foto6.jpg', alt: 'Cena de videoclipe - Estética urbana' },
+    { src: 'assets/img/foto7.jpg', alt: 'Cosmus e bailarinos - Coreografia' },
+    { src: 'assets/img/foto8.webp', alt: 'Editorial de moda - Estilo futurista' },
+    { src: 'assets/img/foto9.jpg', alt: 'Apresentação em festival - Noturno' },
+    { src: 'assets/img/foto10.jpg', alt: 'Bastidores - Preparação para show' },
+    { src: 'assets/img/foto11.jpg', alt: 'Ensaio fotográfico - Luz natural' },
+    { src: 'assets/img/foto12.jpg', alt: 'Performance vocal - Expressão intensa' },
+    { src: 'assets/img/foto13.jpg', alt: 'Detalhe do figurino - Texturas' },
+    { src: 'assets/img/foto14.jpg', alt: 'Interação com a plateia' },
+    { src: 'assets/img/foto15.jpg', alt: 'Cena artística - Movimento' },
+    { src: 'assets/img/foto16.jpg', alt: 'Retrato P&B - Contraste' },
+    { src: 'assets/img/foto17.jpg', alt: 'Show com iluminação dramática' },
+    { src: 'assets/img/foto18.jpg', alt: 'Cosmus em estúdio - Gravação' },
+    { src: 'assets/img/foto19.jpg', alt: 'Evento ao ar livre' },
+    { src: 'assets/img/foto20.jpg', alt: 'Close artístico' },
+    { src: 'assets/img/foto21.jpg', alt: 'Finalização de performance' }
+];
