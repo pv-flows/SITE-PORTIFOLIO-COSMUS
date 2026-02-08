@@ -1,7 +1,9 @@
-* {
+html,
+body {
+    width: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -10,7 +12,6 @@ body {
     font-family: var(--font-body);
     line-height: 1.6;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 /* Tipografia */

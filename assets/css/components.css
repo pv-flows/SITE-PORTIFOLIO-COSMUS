@@ -37,6 +37,13 @@
     transform: none;
 }
 
+@media (max-width: 768px) {
+    .btn-primary {
+        padding: 1rem 1.5rem;
+        margin-top: 1.5rem;
+    }
+}
+
 /* Highlight Text */
 .highlight {
     color: transparent;
