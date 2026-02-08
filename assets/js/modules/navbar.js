@@ -26,7 +26,7 @@ export function initNavbar() {
 
             // Fecha menu mobile ao clicar
             if (window.innerWidth <= 768 && navLinks) {
-                navLinks.style.display = 'none';
+                navLinks.classList.remove('active');
             }
         });
     });
